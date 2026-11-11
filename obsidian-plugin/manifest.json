@@ -1,10 +1,10 @@
 {
   "id": "researcher",
-  "name": "Lumen - AI Brain",
+  "name": "Research Assistant",
   "version": "0.7.7",
   "minAppVersion": "1.5.0",
-  "description": "Your vault's memory and research engine, running locally.",
+  "description": "Local research over an Obsidian vault: surfaces related notes as you write, writes long-form reports with every citation checked against a real block, and remembers what you researched. Runs on Ollama; nothing leaves the machine.",
   "author": "Hamish Burke",
-  "authorUrl": "https://github.com/Slaymish/Lumen",
+  "authorUrl": "https://github.com/hamishburke/obsidian-research-assistant",
   "isDesktopOnly": true
 }

@@ -1,12 +1,12 @@
-# Contributing to Lumen
+# Contributing to the Obsidian Research Assistant
 
-Thanks for your interest. Lumen is a local-first personal knowledge tool, so contributions that preserve the privacy-first design (no vault content leaves the machine) are especially welcome.
+Thanks for your interest. This is a local-first personal knowledge tool, so contributions that preserve the privacy-first design (no vault content leaves the machine) are especially welcome.
 
 ## Reporting bugs
 
-Open an issue at [github.com/Slaymish/Lumen/issues](https://github.com/Slaymish/Lumen/issues) using the **Bug report** template. Include:
+Open an issue at [github.com/hamishburke/obsidian-research-assistant/issues](https://github.com/hamishburke/obsidian-research-assistant/issues) using the **Bug report** template. Include:
 
-- Lumen version (from `manifest.json`)
+- Plugin version (from `manifest.json`)
 - Obsidian version and OS
 - Ollama version and model names
 - Any errors from the Obsidian developer console (`Cmd+Option+I` / `Ctrl+Shift+I`) or the orchestrator terminal
@@ -48,7 +48,7 @@ make plugin-dev                       # esbuild watch mode
 Symlink the plugin into a test vault:
 
 ```bash
-ln -s "$(pwd)/obsidian-plugin" "<vault>/.obsidian/plugins/lumen"
+ln -s "$(pwd)/obsidian-plugin" "<vault>/.obsidian/plugins/researcher"
 ```
 
 Then enable it in **Obsidian → Settings → Community plugins**.

@@ -15,7 +15,7 @@ Steps to reproduce the behaviour:
 What you expected to happen.
 
 **Environment**
-- Lumen version (from `manifest.json`):
+- Plugin version (from `manifest.json`):
 - Obsidian version:
 - OS:
 - Ollama version (`ollama --version`):

@@ -1,8 +1,10 @@
-# Lumen
+# Obsidian Research Assistant
 
-Your vault's memory and research engine, running locally.
+A local research assistant for your vault.
 
-Lumen turns an Obsidian vault from a passive store of notes into an active research collaborator. It runs entirely on local hardware — vault contents never leave the machine.
+It turns an Obsidian vault from a passive store of notes into an active research collaborator, and it
+runs entirely on local hardware — vault contents never leave the machine. One Obsidian plugin, one
+local FastAPI orchestrator, Ollama underneath.
 
 ## What it does
 
@@ -45,7 +47,7 @@ make dev
 
 # Build and symlink the plugin into your vault
 make plugin-build
-ln -s "$(pwd)/obsidian-plugin" "<vault>/.obsidian/plugins/lumen"
+ln -s "$(pwd)/obsidian-plugin" "<vault>/.obsidian/plugins/researcher"
 # Then enable it in Obsidian → Settings → Community plugins
 ```
 
